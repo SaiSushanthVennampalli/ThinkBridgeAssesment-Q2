@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.tb.test.TestScenarios">
+        <methods>
+          <include name="setUpStep"/>
+          <include name="CloseDriver"/>
+          <include name="TC01_Title_Validation"/>
+          <include name="TC02_Valid_Credentials_Validation"/>
+          <include name="TC03_InValid_Credentials_Validation"/>
+        </methods>
+      </class> <!-- com.tb.test.TestScenarios -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
